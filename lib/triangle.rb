@@ -21,9 +21,9 @@ class Triangle
         :scalene
       end
     end
-   
+  end 
     
-     class TriangleError < StandardError
-       "The triangle is invalid."
+  class TriangleError < StandardError
+    "The triangle is invalid."
   end
 end
