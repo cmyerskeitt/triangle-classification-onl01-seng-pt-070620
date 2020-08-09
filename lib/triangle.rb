@@ -13,9 +13,9 @@ class Triangle
     elsif (length_1 + length_2 <= length_3) || (length_2 + length_3 <= length_1) || (length_3 + length_1 <= length_2)
       raise Triangle Error 
     else
-      if (@side_1 == @side_2) && (@side_2 == @side_3)
+      if (@length_1 == @length_2) && (@length_2 == @length_3)
         :equilateral 
-      elsif (@side_1 == @side_2) || (@side_2 == @side_3) || (@side_1 == @side_3)
+      elsif (@length_1 == @length_2) || (@length_2 == @length_3) || (@length_1 == @length_3)
         :isosceles
       elsif (@side_1 != @side_2) && (@side_2 != @side_3) && (@side_1 != @side_3)
         :scalene
