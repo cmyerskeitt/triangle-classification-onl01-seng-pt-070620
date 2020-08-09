@@ -8,7 +8,7 @@ class Triangle
   end
   
   def kind 
-    if (length_1 )
+    if (length_1 <=0) || (length_2 <=0) || (length_3 <=0)
     
     
     
