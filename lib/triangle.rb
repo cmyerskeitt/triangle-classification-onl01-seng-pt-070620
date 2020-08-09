@@ -13,7 +13,7 @@ class Triangle
         raise PartnerError
       rescue PartnerError => error
           puts error.message
-      endraise TriangleError
+      end
     elsif (length_1 + length_2 <= length_3) || (length_2 + length_3 <= length_1) || (length_3 + length_1 <= length_2)
       begin
         raise PartnerError
