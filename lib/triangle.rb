@@ -15,10 +15,9 @@ class Triangle
     else
       if (@side_1 == @side_2) && (@side_2 == @side_3)
         :equilateral 
-      if 
-    length_1 > 0 
-    length_2 > 0 
-    length_3 > 0 
+      elseif 
+        
+   
     
      class TriangleError < StandardError
   end
