@@ -20,7 +20,7 @@ class Triangle
       rescue TriangleError => error
           puts error.message
       end
-    elsif (length_1 == 0) && (length_2 == 0) && (length_3 == 0)
+    elsif (length_1 = 0) && (length_2 = 0) && (length_3 = 0)
       begin
         raise TriangleError
       rescue TriangleError => error
